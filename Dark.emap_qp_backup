@@ -4222,7 +4222,7 @@ Zombie
 startTriggered=False
 useEffect=True
 stationary=False
-delayMin=0
+delayMin=0.3
 delayMax=0
 invisible=False
 invisibleHealth=50
@@ -4240,13 +4240,13 @@ Node{
 Func_Trigger
 isOn=True
 triggerSize=2,0.25,1.75
-disOnEnt=True
+disOnEnt=False
 disOnExit=False
 disOnLastExit=False
 lastOutDelay=0
 entityFilterEnter=players,chaos,prodeus,elder,noteam,key_none
 entityFilterExit=players,chaos,prodeus,elder,noteam,key_none
-pos=0,-2.62445,14.875
+pos=0,-2.12445,14.875
 rotation=0,180,0
 id=44
 layer=-1

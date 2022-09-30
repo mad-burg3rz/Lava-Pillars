@@ -3337,7 +3337,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=4;5;1;0
-uvs=0.1875,-0.6328125;-0.125,-0.6328125;-0.125,-0.6171875;0.1875001,-0.6171875
+uvs=0.1875,-0.6328126;-0.125,-0.6328126;-0.125,-0.6171876;0.1875001,-0.6171876
 }
 Face{
 surf={
@@ -3357,7 +3357,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=6;7;3;2
-uvs=-0.125,-0.6328125;0.1875,-0.6328125;0.1875001,-0.6171875;-0.125,-0.6171875
+uvs=-0.125,-0.6328126;0.1875,-0.6328126;0.1875001,-0.6171876;-0.125,-0.6171876
 }
 Face{
 surf={
@@ -3377,7 +3377,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=5;6;2;1
-uvs=3.625,-0.6328125;3.3125,-0.6328125;3.3125,-0.6171875;3.625,-0.6171875
+uvs=3.625,-0.6328126;3.3125,-0.6328126;3.3125,-0.6171876;3.625,-0.6171876
 }
 Face{
 surf={
@@ -3397,7 +3397,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=7;4;0;3
-uvs=3.3125,-0.6328125;3.625,-0.6328125;3.625,-0.6171875;3.3125,-0.6171875
+uvs=3.3125,-0.6328126;3.625,-0.6328126;3.625,-0.6171876;3.3125,-0.6171876
 }
 }
 Brush{
@@ -4105,7 +4105,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=0;1;5;4
-uvs=-3.96875,-1.499999;4,-1.499999;4,6.625;-3.96875,6.625
+uvs=-3.96875,-1.499999;4,-1.499999;4,6.624998;-3.96875,6.624998
 }
 Face{
 surf={
@@ -4125,7 +4125,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=2;3;7;6
-uvs=4,-1.499999;-3.96875,-1.499999;-3.96875,6.625;4,6.625
+uvs=4,-1.499999;-3.96875,-1.499999;-3.96875,6.624998;4,6.624998
 }
 Face{
 surf={
@@ -4145,7 +4145,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=1;2;6;5
-uvs=-1.499999,4.03125;-1.499999,-3.31244;6.625,-3.312509;6.625,4.03118
+uvs=-1.499999,4.03125;-1.499999,-3.31244;6.624998,-3.312509;6.624998,4.03118
 }
 Face{
 surf={
@@ -4165,7 +4165,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=3;0;4;7
-uvs=-1.499999,-3.31244;-1.499999,4.03125;6.625,4.03118;6.625,-3.312509
+uvs=-1.499999,-3.31244;-1.499999,4.03125;6.624998,4.03118;6.624998,-3.312509
 }
 }
 Brush{
@@ -4456,7 +4456,7 @@ team1=True
 team2=True
 team3=True
 team4=True
-pos=0,0,-3
+pos=0,0,8.5
 rotation=0,0,0
 id=36
 layer=-1
@@ -4467,8 +4467,8 @@ Node{
 Func_RefMap
 path=Doors/Door_Set_1_8x4
 isCloudRefMap=False
-rekey=False
-requiredKey=0
+rekey=True
+requiredKey=1
 automapButtons=False
 materials=SciFi/PanelDetail_GenFull:null;SciFi/Lights01_Gen:null;SciFi/Doors01_Doors:null;SciFi/ScreensInteract01_Add_ScrInt:null
 colors=Default=1,1,1,1:null;Main_1=1,1,1,1:null;Trim_1=1,1,1,0.1428571:null;Trim_2=0,0,0,0.1428571:null;Button_1=1,1,1,1:null;Light_1=1,1,1,1:null;Light_2=1,1,1,1:null
@@ -4487,7 +4487,7 @@ versusRespawn=True
 overrideRespawnTime=False
 respawnTimeOverride=30
 scoreOnce=False
-pos=0.25,0,-2
+pos=0.25,0,9.5
 rotation=0,180,0
 id=38
 layer=-1

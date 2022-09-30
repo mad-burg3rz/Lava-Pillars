@@ -7,7 +7,7 @@ mapTitle=Default
 mapDescription=Editor Starting Level
 mapTags=Tutorial
 isCampaign=False
-faces=273
+faces=301
 mapRunes=
 mapOre=
 mapWeapons=
@@ -3424,7 +3424,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=0;1;2;3
-uvs=0.1250001,0;-0.125,0;-0.125,-0.03125;0.1250001,-0.03125
+uvs=0.125,0;-0.125,0;-0.125,-0.03125;0.125,-0.03125
 }
 Face{
 surf={
@@ -3444,7 +3444,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=7;6;5;4
-uvs=0.1250001,-0.03125003;-0.125,-0.03125003;-0.125,-2.607703E-08;0.1250001,-2.607703E-08
+uvs=0.125,-0.03125003;-0.125,-0.03125003;-0.125,-2.607704E-08;0.125,-2.607704E-08
 }
 Face{
 surf={
@@ -3464,7 +3464,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=4;5;1;0
-uvs=0.1250001,1.75;-0.125,1.75;-0.125,1.96875;0.1250001,1.96875
+uvs=0.125,1.75;-0.125,1.75;-0.125,1.96875;0.125,1.96875
 }
 Face{
 surf={
@@ -3484,7 +3484,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=6;7;3;2
-uvs=-0.125,1.75;0.1250001,1.75;0.1250001,1.96875;-0.125,1.96875
+uvs=-0.125,1.75;0.125,1.75;0.125,1.96875;-0.125,1.96875
 }
 Face{
 surf={
@@ -3504,7 +3504,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=5;6;2;1
-uvs=1.75,-2.607703E-08;1.75,-0.03125003;1.96875,-0.03125;1.96875,0
+uvs=1.75,-2.607704E-08;1.75,-0.03125003;1.96875,-0.03125;1.96875,0
 }
 Face{
 surf={
@@ -3524,7 +3524,7 @@ uvFlipH=False
 uvFlipV=False
 }
 points=7;4;0;3
-uvs=1.75,-0.03125003;1.75,-2.607703E-08;1.96875,0;1.96875,-0.03125
+uvs=1.75,-0.03125003;1.75,-2.607704E-08;1.96875,0;1.96875,-0.03125
 }
 }
 Brush{
@@ -4340,5 +4340,22 @@ id=49
 layer=-1
 parent=-1
 nodeName=Mover(Clone)
+}
+Node{
+Builder_Stairs
+stepHeight=0.5
+topMaterial=0
+riserMaterial=0
+sideMaterial=0
+capSides=True
+capBack=True
+capBottom=True
+stretch=False
+size=2,3.25,2.5
+pos=0,-6.375,30.25
+rotation=0,180,0
+id=50
+layer=-1
+parent=-1
 }
 }
